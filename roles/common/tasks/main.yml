@@ -1,0 +1,10 @@
+---
+- name: Install package with vim and zip
+  package:
+    name:
+      - vim
+      - zip
+    state: present
+
+
+ 
